@@ -22,3 +22,14 @@ function readTodoList() {}
  * @return {Object}
  */
 function readTodo(id) {}
+
+/**
+ * ID를 제외한 모든 속성을 수정할 수 있다.
+ * @param {string} id
+ * @param {string} content
+ * @param {boolean} isDone
+ * @param {string} category
+ * @param {string[]} [tags]
+ * @return {Object}
+ */
+function updateTodo(id, content, isDone, category, tags) {}
