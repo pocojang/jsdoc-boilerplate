@@ -33,3 +33,11 @@ function readTodo(id) {}
  * @return {Object}
  */
 function updateTodo(id, content, isDone, category, tags) {}
+
+/**
+ * 특정 할 일의 특정 태그를 수정할 수 있다.
+ * @param {string} id
+ * @param {string[]} tags
+ * @return {Object}
+ */
+function updateTags(id, tags) {}
