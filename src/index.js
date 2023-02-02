@@ -41,3 +41,10 @@ function updateTodo(id, content, isDone, category, tags) {}
  * @return {Object}
  */
 function updateTags(id, tags) {}
+
+/**
+ * ID를 기반으로 특정 할 일을 삭제할 수 있다.
+ * @param {string} id
+ * @return {boolean}
+ */
+function deleteTodo(id) {}
