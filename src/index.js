@@ -48,3 +48,9 @@ function updateTags(id, tags) {}
  * @return {boolean}
  */
 function deleteTodo(id) {}
+
+/**
+ * 모든 할 일을 제거할 수 있다.
+ * @return {boolean}
+ */
+function deleteTodoList() {}
