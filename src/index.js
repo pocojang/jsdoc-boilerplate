@@ -1,18 +1,14 @@
 /**
- * @typedef Todo
- * @property {string} id
- * @property {string} content
- * @property {boolean} isDone
- * @property {string} category
- * @property {string[]} [tags]
- */
-
-/**
  * 할 일을 추가할 수 있다.
  * 내용없이 추가할 수 없다.
- * @param {Todo} todo
+ * @param {string} id
+ * @param {string} content
+ * @param {boolean} isDone
+ * @param {string} category
+ * @param {string[]} [tags]
+ * @return {Object}
  */
-function createTodo(todo) {}
+function createTodo(id, content, isDone, category, tags) {}
 
 /**
  * 모든 할 일을 조회할 수 있다.
