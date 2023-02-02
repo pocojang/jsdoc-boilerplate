@@ -59,5 +59,13 @@ function deleteTodoList() {}
  * 특정 할 일의 특정 태그를 삭제할 수 있다.
  * @param {string} id
  * @param {string[]} tags
+ * @return {boolean}
  */
 function deleteTags(id, tags) {}
+
+/**
+ * 특정 할 일의 모든 태그를 제거할 수 있다.
+ * @param {string} id
+ * @return {boolean}
+ */
+function deleteTagsList(id) {}
