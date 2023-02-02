@@ -10,6 +10,11 @@
 /**
  * 할 일을 추가할 수 있다.
  * 내용없이 추가할 수 없다.
- * @param {Todo}
+ * @param {Todo} todo
  */
 function createTodo(todo) {}
+
+/**
+ * 모든 할 일을 조회할 수 있다.
+ */
+function readTodoList() {}
