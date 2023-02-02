@@ -12,6 +12,7 @@ function createTodo(id, content, isDone, category, tags) {}
 
 /**
  * 모든 할 일을 조회할 수 있다.
+ * @return {Object[]}
  */
 function readTodoList() {}
 
